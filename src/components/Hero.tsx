@@ -91,7 +91,7 @@ export const Hero: React.FC<HeroProps> = ({ onOpenDownloadModal }) => {
             </button>
 
             <button
-              onClick={scrollToFeatures}
+              onClick={() => onOpenDownloadModal()}
               id="hero-secondary-cta"
               className="w-full sm:w-auto inline-flex items-center justify-center gap-2 px-7 py-4 rounded-2xl font-semibold text-base text-slate-200 bg-slate-900/80 hover:bg-slate-800 border border-slate-700/80 hover:border-slate-600 transition-all duration-200 cursor-pointer"
             >

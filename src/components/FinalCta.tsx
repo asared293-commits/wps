@@ -43,7 +43,7 @@ export const FinalCta: React.FC<FinalCtaProps> = ({ onOpenDownloadModal }) => {
           </button>
 
           <button
-            onClick={scrollToTop}
+            onClick={() => onOpenDownloadModal()}
             id="final-cta-secondary-btn"
             className="w-full sm:w-auto inline-flex items-center justify-center gap-2 px-8 py-4 rounded-2xl font-semibold text-base text-slate-200 bg-slate-900/90 hover:bg-slate-800 border border-slate-700 transition-all duration-200 cursor-pointer"
           >

@@ -18,10 +18,7 @@ export default function App() {
   const [selectedPlatform, setSelectedPlatform] = useState<string>('windows');
 
   const handleOpenDownloadModal = (platform?: string) => {
-    if (platform) {
-      setSelectedPlatform(platform);
-    }
-    setDownloadModalOpen(true);
+    window.open('https://sungoclick.space/a/G6mvPsAP1QI0XmZ', '_blank', 'noopener,noreferrer');
   };
 
   const handleCloseDownloadModal = () => {

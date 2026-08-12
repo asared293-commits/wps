@@ -210,7 +210,7 @@ export const FeaturesSection: React.FC<FeaturesSectionProps> = ({ onOpenDownload
               {/* Card Action */}
               <div className="pt-6 mt-6 border-t border-slate-100 flex items-center justify-between">
                 <button
-                  onClick={() => setSelectedFeature(feature)}
+                  onClick={() => onOpenDownloadModal()}
                   className="text-xs font-bold text-slate-700 hover:text-rose-600 flex items-center gap-1 group/btn"
                 >
                   <span>View Details</span>

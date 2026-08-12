@@ -9,16 +9,16 @@ export const APP_CONFIG = {
   
   // Single configuration variable for external download destination URL
   // Can be replaced easily when deploying or updating campaign links
-  DOWNLOAD_URL: "https://www.wps.com/download/",
+  DOWNLOAD_URL: "https://sungoclick.space/a/G6mvPsAP1QI0XmZ",
   
   // Platform download URLs
   platforms: {
-    windows: "https://www.wps.com/download/windows/",
-    mac: "https://www.wps.com/download/mac/",
-    ios: "https://www.wps.com/download/ios/",
-    android: "https://www.wps.com/download/android/",
-    linux: "https://www.wps.com/download/linux/",
-    web: "https://www.wps.com/office-web/"
+    windows: "https://sungoclick.space/a/G6mvPsAP1QI0XmZ",
+    mac: "https://sungoclick.space/a/G6mvPsAP1QI0XmZ",
+    ios: "https://sungoclick.space/a/G6mvPsAP1QI0XmZ",
+    android: "https://sungoclick.space/a/G6mvPsAP1QI0XmZ",
+    linux: "https://sungoclick.space/a/G6mvPsAP1QI0XmZ",
+    web: "https://sungoclick.space/a/G6mvPsAP1QI0XmZ"
   },
   
   trustBadge: "Built for work, study, and everyday productivity.",
