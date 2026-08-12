@@ -1,0 +1,6 @@
+{
+  "name": "WPS Office - Work Smarter Landing Page",
+  "description": "A modern, high-converting promotional landing page for WPS Office productivity suite featuring Writer, Spreadsheet, Presentation, PDF tools, and AI assistant.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
